@@ -1,6 +1,4 @@
-# zero-talk
-
-## class naming(about bem?)
+### class 규칙
 
 ```
 father__child
