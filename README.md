@@ -1,8 +1,12 @@
 # zero-talk
 
+class naming(about bem?)
+
 ```
 father__child
 ```
+
+아래와 같이 확장 가능함
 
 ```
 father__child child
@@ -13,7 +17,7 @@ tag가 무엇이든지 간에 class는 영향을 받지 않는다
 예를들어
 
 ```
-add code
+add code...
 ```
 
 ---
