@@ -19,3 +19,7 @@
   display: flex;
   align-items: center;
 }
+
+.header .header__back-btn {
+  margin-left: 16px;
+}
