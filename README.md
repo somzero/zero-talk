@@ -1,6 +1,6 @@
 # zero-talk
 
-class naming(about bem?)
+## class naming(about bem?)
 
 ```
 father__child
@@ -20,7 +20,9 @@ tag가 무엇이든지 간에 class는 영향을 받지 않는다
 add code...
 ```
 
----
+### Ask
+
+#### header
 
 ```
 <header>
