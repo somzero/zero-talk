@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 32px;
 }
 .header .header__title {
@@ -8,7 +9,13 @@
   font-weight: 700;
 }
 
-.header .header__icon {
-  width: 100%;
-  margin: 4px;
+.header .header__icons {
+  margin-left: 8px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
 }
