@@ -9,11 +9,35 @@
   border-radius: 50%;
 }
 
-.g-avatar {
+.g-avatar.friend__avatar {
   width: 56px;
-  border-radius: 50%;
 }
 
-.friend__avatar.g-avatar {
-  /*width: 40px;*/
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.chats__chat.friend {
+  padding: 8px 16px;
+}
+
+.friend .friend__name {
+  font-size: 14px;
+}
+
+.friend .friend__bottom-text {
+  font-size: 12px;
+  color: #9999;
+}
+
+.friend .firend__timestamp {
+  font-size: 12px;
+  color: #9999;
 }
