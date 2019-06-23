@@ -5,4 +5,12 @@
 .find .find__header-list {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 32px;
+}
+
+.find .header-btn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
 }
