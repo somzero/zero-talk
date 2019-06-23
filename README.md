@@ -18,6 +18,34 @@ tag가 무엇이든지 간에 class는 영향을 받지 않는다
 add code...
 ```
 
+###prettier 적용
+
+```
+setting > search 'prettier' >
+edit in jason >
+"editor.formatOnSave": true and save the file!
+```
+
+###link 컬러 보라색에서 바꾸기
+
+```
+a color: inherit
+```
+
+###baseline
+
+```
+verrical-align:
+```
+
+###box-sizing
+
+```
+* {
+  box-sizing: border-box;
+}
+```
+
 ---
 
 ### Ask
