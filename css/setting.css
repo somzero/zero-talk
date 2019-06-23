@@ -1,0 +1,18 @@
+.settings__setting {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+/* .settings__setting:last-child {
+  margin-bottom: 0;
+} */
+
+.settings__title {
+  font-size: 14px;
+}
+
+.settings__icon {
+  margin-right: 12px;
+}

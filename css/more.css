@@ -1,0 +1,30 @@
+.more .more__btn-list,
+.more__suggestions-list {
+  width: 400px;
+  display: flex;
+  padding: 16px;
+}
+
+.more__btn-list .more__btn,
+.more__suggestions .suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.more__btn-title,
+.suggestion__title {
+  font-size: 12px;
+}
+
+.more .more__suggestions {
+  margin-top: 32px;
+}
+
+.more__suggestions .more__title {
+  color: #666;
+  padding: 0 16px;
+  font-size: 14px;
+}
