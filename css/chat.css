@@ -1,0 +1,11 @@
+.chat__write {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  padding: 12px;
+}
+
+.chat__write-column {
+  display: flex;
+}
