@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px 16px;
 }
 
 .friend .friend__avatar {
@@ -26,10 +27,6 @@
 /* .friend__content .friend__name {
     display:block;
 } */
-
-.friend {
-  padding: 8px 16px;
-}
 
 .friend .friend__bottom-text,
 .friend .firend__timestamp {
