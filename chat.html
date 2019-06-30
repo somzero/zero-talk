@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | kakao clone</title>
   </head>
-  <body>
+
+  <body class="chat-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__column">13:35</span>
@@ -48,20 +49,28 @@
       </div>
     </header>
 
-    <main class="chat">
+    <main class="chat-screen">
+      <!-- <ul class="chat__messages">
+        <span class="chat__timestamp">16:35</span>
+        <li class="incoming-message message">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="message__content">Hello, world</div>
+        </li>
+      </ul> -->
+
       <div class="chat__frerind friend">
         <div class="friend__column">
           <img src="images/avatar.jpg" class="friend__avatar" />
         </div>
         <div class="friend__column-balloon">
-          <sapn class="chat__balloon">이직을 축하해</sapn>
+          <sapn class="chat__balloon">Hello world</sapn>
           <span class="chat__timestamp">16:35</span>
         </div>
       </div>
 
       <div class="chat__my-balloon">
         <div class="chat__my-message">
-          <sapn class="chat__balloon">이직을 축하해이직을 축하해</sapn>
+          <sapn class="chat__balloon">Welcome, zelog</sapn>
           <span class="chat__timestamp">16:35</span>
         </div>
       </div>
@@ -69,7 +78,7 @@
 
     <div class="chat__write">
       <div class="chat__write-column">
-        <img src="images/ic-b-add.svg"
+        <img src="images/ic-b-add.svg" />
       </div>
       <div class="chat__write-column">
         <input
@@ -78,14 +87,9 @@
           class="chat__write-input"
         />
       </div>
-      <div class="chat__write-column">
-        <span class="chat__wrile-icon">
-          <i class="far fa-smile"></i>
-        </span>
-        <span class="chat__wrile-icon">
-          <i class="fas fa-microphone"></i>
-        </span>
-      </div>
+      <button class="chat__write-column">
+        보내기
+      </button>
     </div>
   </body>
 </html>
