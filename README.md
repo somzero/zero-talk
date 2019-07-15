@@ -38,13 +38,21 @@ a color: inherit
 verrical-align:
 ```
 
-###box-sizing
+### box-sizing
 
 ```
 * {
   box-sizing: border-box;
 }
 ```
+
+### sticky
+
+sticky의 기초 단계 `position: fixed`
+
+### wrapper: 컴포넌트끼리 그룹핑 할때
+
+- class name `div class="header-wrapper"`
 
 ---
 

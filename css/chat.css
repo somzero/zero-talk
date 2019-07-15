@@ -1,8 +1,15 @@
+.header-wrapper {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+}
+
 .chats-body {
   padding: 0;
 }
 .chat-screen {
-  min-height: 100vh;
+  min-height: 1000vh;
+  padding-top: 100px;
 }
 
 /* chat__wrrite */
@@ -37,7 +44,7 @@
   margin-right: 8px;
 }
 
-button .chat__write-column {
+.input-button {
   font-size: 12px;
   border: none;
 }
