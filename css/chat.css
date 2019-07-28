@@ -20,11 +20,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #e5e5e5;
+  /* border-top: 1px solid #e5e5e5; */
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-40px);
+    box-shadow: 0 0 16px 0 rgba(97, 85, 85, 0.16);
+    }
+  50%{
+    transform: translateY(-50px);
+    box-shadow: 0 0 16px 0 rgba(97, 85, 100, 0.3);
+  }
+  100%{
+    transform: translateY(-40px);
+    box-shadow: 0 0 16px 0 rgba(97, 85, 85, 0.16);
+  }
 }
 
 input:focus {
   outline: none;
+  width: 80%;
+  transform: translateY(-40px);
+  border-radius: 50px;
+  box-shadow: 0 0 16px 0 rgba(97, 85, 85, 0.16);
+  animation: float 2s linear infinite forwards;
 }
 
 input:focus ~ .chat__icon {
@@ -33,12 +53,12 @@ input:focus ~ .chat__icon {
 
 input {
   padding: 13px 16px;
-  border: 1px solid #e5e5e5;
-  border-radius: 50px;
   width: 100%;
+  /* border: 1px solid #e5e5e5; */
+  /* border-radius: 50px; */
   font-size: 12px;
-  /* 적용안됨 ㅠㅠ*/
-  transition: width 0.5s ease-in;
+  transition: width 0.5s ease-in, box-shadow 0.5s ease-in,
+  border-radius: 0.5s ease-in;
 }
 
 .chat__icon {
@@ -71,6 +91,20 @@ input {
   color: #888;
 }
 
+
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
+.friend__column img {
+  animation: spin 1s linear delay infinite;
+}
+
 /* friend */
 .chat-screen .chat__frerind {
   display: flex;
@@ -85,6 +119,7 @@ input {
   margin-left: 8px;
 }
 
+
 /* me */
 .chat__my-balloon {
   display: flex;
@@ -98,3 +133,35 @@ input {
   flex-direction: column;
   margin-right: 16px;
 }
+
+@keyframes incomingAnimation {
+  from{
+    transform: translateX(-60px);
+    opacity: 0;
+  }
+  to{
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.friend {
+animation: incomingAnimation 1s ease-out forwards;
+}
+
+@keyframes sentAnimation {
+  from{
+    transform: translateX(+60px);
+    opacity: 0;
+  }
+  to{
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.chat__my-balloon {
+  /* forwards는 value를 유지하게 해준다 */
+  animation: incomingAnimation 1s ease-out forwards;
+}
+
